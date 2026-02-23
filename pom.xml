@@ -134,6 +134,27 @@
     </dependencies>
 
     <build>
+        <plugins>
+            <!-- Enable Hibernate bytecode enhancement for all entity modules.
+                 This makes BytecodeEnhancementMetadata.isEnhancedForLazyLoading() return true,
+                 which causes DefaultReactiveLoadEventListener.hasBytecodeProxy() to return true,
+                 routing lazy loading through the reactive-safe loadWithBytecodeProxy() path
+                 instead of the synchronous loadWithRegularProxy() → onLoad() →
+                 UnexpectedAccessToTheDatabase path. -->
+            <plugin>
+                <groupId>org.hibernate.orm</groupId>
+                <artifactId>hibernate-maven-plugin</artifactId>
+                <version>${maven.hibernate.version}</version>
+                <executions>
+                    <execution>
+                        <id>enhance</id>
+                        <goals>
+                            <goal>enhance</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
         <pluginManagement>
             <plugins>
 
