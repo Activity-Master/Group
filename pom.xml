@@ -118,17 +118,17 @@
         </dependency>
 
         <dependency>
-            <groupId>com.guicedee.services</groupId>
+            <groupId>com.guicedee.modules.services</groupId>
             <artifactId>hibernate-core</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.guicedee.services</groupId>
+            <groupId>com.guicedee.modules.services</groupId>
             <artifactId>hibernate-reactive</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.guicedee.services</groupId>
+            <groupId>com.guicedee.modules.services</groupId>
             <artifactId>vertx-mutiny</artifactId>
         </dependency>
     </dependencies>
