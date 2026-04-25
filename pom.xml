@@ -189,7 +189,7 @@
     </build>
 
 
-    <url>https://activitymaster.com</url>
+    <url>https://activity-master.com</url>
 
     <licenses>
         <license>
@@ -201,7 +201,7 @@
 
     <organization>
         <name>Activity Master</name>
-        <url>https://activitymaster.com</url>
+        <url>https://activity-master.com</url>
     </organization>
 
     <scm>
