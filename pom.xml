@@ -22,6 +22,9 @@
         <flatten.pom>false</flatten.pom>
 
         <maven.javadoc.skip>true</maven.javadoc.skip>
+        <guicedee.version>2.0.1-SNAPSHOT</guicedee.version>
+        <jwebmp.version>2.0.0-SNAPSHOT</jwebmp.version>
+        <entityassister.version>2.0.1-SNAPSHOT</entityassister.version>
 
         <jdk.release>25</jdk.release>
         <project.scm.nameUrl>/Activity-Master/Parent</project.scm.nameUrl>
@@ -33,6 +36,13 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>com.entityassist</groupId>
+                <artifactId>entity-assist-reactive</artifactId>
+                <version>${entityassister.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.guicedee</groupId>
                 <artifactId>guicedee-bom</artifactId>
