@@ -17,13 +17,12 @@
     <description>The group for activity master</description>
 
     <properties>
-        <jwebmp.version>${guicedee.version}</jwebmp.version>
         <ignore.moditect>true</ignore.moditect>
         <flatten.pom>false</flatten.pom>
 
         <maven.javadoc.skip>true</maven.javadoc.skip>
-        <guicedee.version>2.0.2</guicedee.version>
-        <jwebmp.version>2.0.2</jwebmp.version>
+        <guicedee.version>2.1.0-SNAPSHOT</guicedee.version>
+        <jwebmp.version>2.0.3-SNAPSHOT</jwebmp.version>
         <entityassister.version>2.0.1-SNAPSHOT</entityassister.version>
 
         <jdk.release>25</jdk.release>
