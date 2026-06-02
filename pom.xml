@@ -21,7 +21,7 @@
         <flatten.pom>false</flatten.pom>
 
         <maven.javadoc.skip>true</maven.javadoc.skip>
-        <guicedee.version>2.1.0-SNAPSHOT</guicedee.version>
+        <guicedee.version>2.1.1-SNAPSHOT</guicedee.version>
         <jwebmp.version>2.0.3-SNAPSHOT</jwebmp.version>
         <entityassister.version>2.0.1-SNAPSHOT</entityassister.version>
 
